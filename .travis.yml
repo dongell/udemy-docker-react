@@ -9,7 +9,6 @@ script:
   - docker run -e CI=true dongell/udemy-docker-react npm run test
 
 deploy:
-  edge: true
   provider: elasticbeanstalk
   region: "us-east-2"
   app: "udemy-docker-react"
